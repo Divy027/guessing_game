@@ -6,7 +6,7 @@ fn main() {
     println!("Welcome to guessing game ");
     
     
-    let secret_number = rand::thread_rng().gen_range( 1, 101); //random number generation
+    let secret_number: u32 = rand::thread_rng().gen_range( 1, 101); //random number generation
     println!("the secret number is {}",secret_number);
 
     loop {
